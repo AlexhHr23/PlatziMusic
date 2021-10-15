@@ -17,9 +17,9 @@
 
     <EditText
         android:id="@+id/etLoginUsername"
+        style="@style/AppTheme.EditTexStyle"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_margin="12dp"
         android:drawableStart="@drawable/vector_person"
         android:drawablePadding="12dp"
         android:hint="@string/hint_usuario"
@@ -29,9 +29,9 @@
 
     <EditText
         android:id="@+id/ediText"
+        style="@style/AppTheme.EditTexStyle"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_margin="12dp"
         android:drawableStart="@drawable/vector_lock"
         android:drawablePadding="12dp"
         android:hint="Password"
